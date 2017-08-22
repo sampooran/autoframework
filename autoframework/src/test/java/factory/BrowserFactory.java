@@ -21,13 +21,12 @@ public class BrowserFactory {
         System.setProperty("webdriver.chrome.driver",DataProviderFactory.getConfig().getChromePath() );
         driver = new ChromeDriver();
     }
-    else if(browsername.equalsIgnoreCase("firefox")){
-
-        System.setProperty("webdriver.FireFox.driver",DataProviderFactory.getConfig().getChromePath() );
-        driver = new FirefoxDriver();
+    else {
+        System.out.println("Hello");
     }
-    driver.manage().window().maximize();
-    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS );
+
+//    driver.manage().window().maximize();
+//    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS );
     return driver;
 
 

@@ -11,15 +11,16 @@ import java.util.Properties;
 
 public class ConfigDataProvider {
 
-    Properties pro;
+   Properties pro;
     public ConfigDataProvider(){
 
-        File src = new File ("./Configs/config.properties");
+        File src = new File ("/Users/sukhjitparihar/Documents/SeleniumAuto/icixauto/Configs/config.properties");
+
 
         try {
             FileInputStream fis = new FileInputStream(src);
 
-            pro = new Properties();
+          pro = new Properties();
             pro.load(fis);
 
         } catch (Exception e) {
