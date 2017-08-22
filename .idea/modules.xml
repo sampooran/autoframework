@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/icixauto.iml" filepath="$PROJECT_DIR$/.idea/icixauto.iml" />
-      <module fileurl="file://$PROJECT_DIR$/icixautoframework/icixautoframework.iml" filepath="$PROJECT_DIR$/icixautoframework/icixautoframework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/autoframework.iml" filepath="$PROJECT_DIR$/.idea/autoframework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/autoframework/icixautoframework.iml" filepath="$PROJECT_DIR$/autoframework/icixautoframework.iml" />
     </modules>
   </component>
 </project>
